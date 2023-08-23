@@ -1,14 +1,30 @@
+import java.util.Scanner;
+
 public class Exercicios2 {
 
     public static void main(String[] args) {
             Exercicios2 exercicio = new Exercicios2();
-            
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Insira uma letra de a até f:");
+            String letra = sc.next();
+            if (letra.equals ("a")){
             exercicio.exercicio2a();
-            exercicio.exercicio2b();
-            exercicio.exercicio2c();
-            exercicio.exercicio2d();
-            exercicio.exercicio2e();
-            exercicio.exercicio2f();
+            }
+            if (letra.equals ("b")){
+                exercicio.exercicio2b();
+            }
+             if (letra.equals ("c")){exercicio.exercicio2c();
+            }
+             if (letra.equals ("d")){
+                exercicio.exercicio2d();
+            }
+             if (letra.equals ("e")){
+                exercicio.exercicio2e();
+             }
+              if (letra.equals ("f")){
+                exercicio.exercicio2f();
+              }
+              sc.close();
     }
     public void exercicio2a(){
         int A = 10;
