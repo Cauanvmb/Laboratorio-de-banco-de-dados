@@ -9,6 +9,15 @@ public class Casa {
         this.dono = dono;
 
     }
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    public void setCep(int cep) {
+        this.cep = cep;
+    }
+    public void setDono(String dono) {
+        this.dono = dono;
+    }
     public int getnumero(){
         return numero;
     }
@@ -30,5 +39,3 @@ public class Casa {
         System.out.println("Verificou o correio.");
     }
 }    
-
-    
