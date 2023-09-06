@@ -16,9 +16,17 @@ public class Testar{
         meuAluno.deuPescada();
         meuAluno.foiTomarAgua();
         meuAluno.tirouNota();
-    
+        Short meuShort = new Short("douradinho", "Furado", "Jeans");
+        meuShort.braguilha();
+        meuShort.rasgou();
+        meuShort.vestiu();
+        Xadrez meuxadrez = new Xadrez("h7", "pretas", "cavalo");
+        meuxadrez.passante();
+        meuxadrez.gambitoDaRainha();
+        meuxadrez.win();
+        
     
     }
 
 
-    }
+}
