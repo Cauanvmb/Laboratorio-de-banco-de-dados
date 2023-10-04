@@ -24,8 +24,14 @@ public class Testar{
         meuxadrez.passante();
         meuxadrez.gambitoDaRainha();
         meuxadrez.win();
-        
-    
+        Pokemon meupokemon = new Pokemon("charmander", "brasa", "fogo");
+        meupokemon.skill();
+        Cheiro cheiroDaGarotaChamadaAgar = new Cheiro("CC", "Verde", "CC");
+        cheiroDaGarotaChamadaAgar.fedendo();
+        Moto minhaMoto = new Moto("mitsubish", "preto", 2005 );
+        minhaMoto.darGrau();
+        Cachorro meuCachorro = new Cachorro("caramelo", "Caramelo", "Vira-lata (Caramelo)");
+        meuCachorro.correrAtrasDaMoto();
     }
 
 
