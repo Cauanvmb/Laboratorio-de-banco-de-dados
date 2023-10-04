@@ -33,6 +33,4 @@ public class Testar{
         Cachorro meuCachorro = new Cachorro("caramelo", "Caramelo", "Vira-lata (Caramelo)");
         meuCachorro.correrAtrasDaMoto();
     }
-
-
 }
