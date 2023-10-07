@@ -30,5 +30,11 @@ public class Moto {
     public void darGrau(){
         System.out.println("dando grau");
     }
+    public void cortaGiro(){
+        System.out.println("está cortando giro");
+    }
+    public void passageiro(){
+        System.out.println("passageiro subiu na magrelinha");
+    }
 }
 

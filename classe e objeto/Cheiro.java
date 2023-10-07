@@ -30,4 +30,10 @@ public class Cheiro {
     public void fedendo(){
         System.out.println("tem um cheiro ruim no ar");
     }
+    public void cheiroso(){
+        System.out.println("Cauan está deveras cheiroso");
+    }
+    public void pum(){
+        System.out.println("soltaram um fedido, que fedo");
+    }
 }

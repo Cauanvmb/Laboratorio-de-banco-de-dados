@@ -36,4 +36,10 @@ public class Pokemon {
     public void skill(){
         System.out.println("usando ataque");
     }
+    public void evoluiu(){
+        System.out.println("seu pokemon evoluiu");
+    }
+    public void perdeu(){
+        System.out.println("seu pokemon foi derrotado");
+    }
 }

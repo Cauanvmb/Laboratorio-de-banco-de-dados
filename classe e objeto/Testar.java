@@ -26,11 +26,19 @@ public class Testar{
         meuxadrez.win();
         Pokemon meupokemon = new Pokemon("charmander", "brasa", "fogo");
         meupokemon.skill();
-        Cheiro cheiroDaGarotaChamadaAgar = new Cheiro("CC", "Verde", "CC");
-        cheiroDaGarotaChamadaAgar.fedendo();
+        meupokemon.evoluiu();
+        meupokemon.perdeu();
+        Cheiro cheiroDeAlguém = new Cheiro("CC", "Verde", "CC");
+        cheiroDeAlguém.fedendo();
+        cheiroDeAlguém.cheiroso();
+        cheiroDeAlguém.pum();
         Moto minhaMoto = new Moto("mitsubish", "preto", 2005 );
         minhaMoto.darGrau();
+        minhaMoto.cortaGiro();
+        minhaMoto.passageiro();
         Cachorro meuCachorro = new Cachorro("caramelo", "Caramelo", "Vira-lata (Caramelo)");
         meuCachorro.correrAtrasDaMoto();
+        meuCachorro.darPatinha();
+        meuCachorro.sentar();
     }
 }

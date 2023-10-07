@@ -31,5 +31,11 @@ public class Cachorro {
     public void correrAtrasDaMoto(){
         System.out.println("O caramelo saiu correndo atrás da moto");
     }
+    public void darPatinha(){
+        System.out.println("deu a patinha, que belezinha");
+    }
+        public void sentar(){
+        System.out.println("sentou, que belezinha");
+    }
 
 }
