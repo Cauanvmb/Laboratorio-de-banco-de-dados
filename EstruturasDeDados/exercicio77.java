@@ -1,5 +1,5 @@
 package EstruturasDeDados;
-public class exercicio77 {
+public class Exercicio77 {
     public static void main(String[] args) {
         int[] vetor = {5, 1, 4, 2, 7, 8, 3, 6};
         int aux;
@@ -14,5 +14,5 @@ public class exercicio77 {
         vetor[vetor[3]] = vetor[vetor[2]];
         System.out.println("vetor: " + java.util.Arrays.toString(vetor));
     }
-
+    
 }
